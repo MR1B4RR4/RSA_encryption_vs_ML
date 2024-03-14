@@ -46,9 +46,9 @@ output_dim = 1
 model = Sequential()
 model.add(LSTM(units=50, activation='relu', input_shape=(input_dim, 1)))
 model.add(Dense(output_dim))
-model.compile(optimizer=Adam(learning_rate=0.001), loss='mean_squared_error')
+model.compile(optimizer=Adam(learning_rate=0.001, clipvalue=0.5), loss='mean_squared_error')
 
 # Training the model
 model.fit(X_train, y_train, epochs=100, batch_size=32, validation_data=(X_test, y_test))
 
-model.save('model_keras.h5') 
+#model.save('model_keras.h5') 
