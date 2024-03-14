@@ -224,3 +224,299 @@ But I, that am curtail'd of York;
 And now, instead of this wrinkled front;
 And all the clouds the ocean buried.
 Nor monume
+The RSA algorithm, named after its inventors Ron Rivest, Adi Shamir, and Leonard Adleman, is a widely used asymmetric cryptographic algorithm for secure communication over insecure channels. Here's a quick description of how it works:
+
+Key Generation:
+Choose two distinct prime numbers, p and q. Compute n = p * q, where n is the modulus for the public and private keys. Compute φ(n) = (p-1) * (q-1), where φ is Euler's totient function. Choose an integer e such that 1 < e < φ(n) and gcd(e, φ(n)) = 1 (e is coprime with φ(n)). This e will be the public exponent. Compute d such that (d * e) % φ(n) = 1. This d will be the private exponent. Key Distribution:
+Public Key: (e, n) is distributed publicly. This is used for encryption. Private Key: (d, n) is kept secret. This is used for decryption. Encryption:
+To encrypt a message m, where 0 < m < n, compute c = m^e mod n. Here, c is the ciphertext. Decryption:
+To decrypt the ciphertext c, compute m = c^d mod n. Here, m is the original message. The security of RSA relies on the difficulty of factoring the product of two large prime numbers (n = p * q) into its prime factors. As long as the primes p and q are sufficiently large and chosen randomly, it is computationally infeasible to factorize n and retrieve the private key from the public key. Thus, RSA provides a secure method for encryption and decryption, widely used in various secure communication protocols like SSL/TLS, SSH, and PGP.
+Christine Weston Chandler, formerly Christian Weston Chandler (born: Christopher Weston Chandler; 24 February 1982) is a 42-year-old autistic, mentally ill,[8] misandristic and misogynistic cartoonist, YouTuber, criminal, former virgin with rage, self-proclaimed deity, and literal motherfucker. He is commonly referred to by his nickname Chris-Chan or Chris Chan, by his initials CWC, or simply the gender-neutral Chris. He looks kind of like a cartoon version of Benjamin Franklin come to life, and is considered to be one of the most well-known and well-documented lolcows in Internet culture – if not one of the most well-documented people in history.
+Some would consider Chris to be a celebrity, but he hasn't sold a multi-platinum album, nor has he been awarded with an Oscar. Instead, he is the creator of the infamous webcomic Sonichu, which ostensibly tells the story of an Electric Hedgehog Pokémon Sonichu and his sweetheart Rosechu and their adventures with the Chaotic Combo. In practice, the webcomic really serves as wish fulfillment for Chris himself, allowing him to express his dissatisfaction with how the faculty at school and college didn't acknowledge what he saw as an exemplary academic performance when he graduated, along with his frustration over being unable to find a romantic partner; as such, the book let him redirect his anger toward the people who impeded his journey, casting them as villains and himself as a true Campbellian hero in his narrative. After completing his education, Chris was unemployed for most of his adult life, making a living off of welfare and donations from his webcomic's True and Loyal Fanbase.
+In late 2007, he became Internet-famous when images of him at a tabletop gaming store leaked out to the Something Awful message boards. Upon discovery, Chris was mocked for his odd fashion sense and oafish appearance, and images of Chris at the store soon spread to places like 4chan and Encyclopedia Dramatica, and in the process, many trolls were exposed to his webcomic for the first time, propelling Chris to stardom. Initial fascination was spurred on by his childlike artwork, his signature homemade Sonichu medallion that he wore in public, and his history of loitering in public places while literally holding up a sign asking women to talk to him. His reaction to the ensuing mockery led to a cycle of Chris revealing more disturbing facts about himself and trolls going to greater and greater lengths to uncover more knowledge about this strange individual. Thus, Chris's life began to spiral out of control with the advent of organized trolling, armchair psychological analysis from bewildered onlookers, and some truly bizarre antics from Chris that continue to this day, which would influence the development of the webcomic whenever he got around to updating it.
+Chris's most notable period of activity on the Internet occurred between 2007 and 2010 – a period now dubbed the "Classic Era" by modern Christorians – in which he was repeatedly catfished by trolls pretending to be romantic interests, and he lashed out against arch-enemy Clyde Cash, the leader of the most notable group of trolls in his life: The Miscreants. In this time, he was duped by a sadistic 13-year-old into stuffing his medallion up his ass, he had his identity stolen by a far more talented individual, and he saw Sonichu mercilessly spoofed by a webcomic team that designed a story to piss him off, among other misadventures. However, he eventually decided to sign off from the Internet at the end of this period, seemingly wising up to his dang dirty trolls. When he inevitably returned to the limelight a few months later in 2011, he was not the same. Chris began to experiment with crossdressing, calling himself a "Tomgirl", before eventually coming out as transgender in late 2014.
+From here, Chris's Internet life stayed relatively normal (by his standards), despite his shift in gender identity, his father's death (which led to the retirement of the Miscreants), a hit-and-run case, the accident that caused his house to burn down, and an incident where he maced an employee at a GameStop store over the color of Sonic's arms. Things changed when two new sets of trolls – known as the Idea Guys and the Teen Troon Squad – brainwashed him with increasingly-insane beliefs (such as the idea that he and both of his parents are half-Sonichu or half-Rosechu), culminating in Chris's revelation that he was a goddess meant to bring about a convergence of dimensions between the world shown in his webcomic and our world, effectively starting a doomsday cult around what began as a silly, self-indulgent Sonic the Hedgehog and Pokémon crossover. Afterward, Chris used this delusion as an elaborate coping mechanism while he continued his self-destructive habits.
+Despite the trolls in question being driven out by the effort of the Guard Dogs trying to keep Chris from going further down a path of ruination (and to keep him from embarrassing himself any more), he chose to keep clinging to these unhealthy and downright absurd beliefs. All the while, his physical and mental health withered away, and money became a serious issue for the Chandler household, while his mother wasn't long for the world, all of which led Chris to retreat even further into his fantasies. It got to the point where he pretended to be possessed by various fictional characters on a regular basis, with one nearly year-long period of "possession" by Sonichu serving as a way for Chris to cope with the fact that he wasn't able to attend two My Little Pony conventions cancelled during the COVID-19 pandemic.
+The point of no return was finally crossed in 2021, after leaked audio revealed that he had several incestuous encounters with his mother, which forcibly evicted him from his own home and sent him to Central Virginia Regional Jail, which became his most publicized incident in years. During that time, letters from jail illustrate that he went even deeper into his own fantasies by believing himself to be Jesus Christ reincarnated. Chris was later transferred to the Western State Hospital mental institution for three months before returning to jail, until he was released in March 2023. After spending a few months in the group home in Chesterfield County, he was bought a house in Big Island, where he lives to this day. Although he hadn't returned to the levels of popularity he had before the incident, at least not the good kind, he remains active on Twitter and Youtube, and fortunately (or unfortunately for some), he shows no signs of stopping.
+There has never been an Internet personality quite like Chris-Chan, thanks to the unique circumstances shaping his peculiar behavior and subsequently leading to his prominence online, and there may never be another quite like him – he is truly one of a kind. It is the dedicated mission of this very wiki to chronicle his life in ridiculous detail, and if you want to go down the seemingly bottomless rabbit hole with us, then you should probably start by reading this page. Buckle up, because this is going to be a long ride, and the end is nowhere in sight.
+Normally, transgender people plan out their gender transitions with doctors to ensure safety throughout the process, especially if they are taking hormones (which can cause health issues unless strictly monitored according to the patient's health profile).
+Unfortunately, Chris has done the opposite. In 2015, he acquired Oestrogel, a hormone replacement therapy cream meant for post-menopausal women. It is meant to be prescription-only, but Chris got around the requirement to see a doctor by ordering it through Offshore Pharmacy.[33] Oestrogel has several health risks such as but not limited to; fluid retention, weight changes, rise in blood pressure (disastrous for an obese person like Chris) and blood clots,[34] and that is when it is applied properly via a small dosage on the arm once per day. He even managed to fail at following the directions on the package, as shown in Oestrogel application and Vibrating Bra, How To., in which he slathers the cream onto his stomach "like buttering bread".
+Kim Wilson revealed that he was taking the hormones in May 2015,[35] and Chris mentioned the drug again as late as August 2016.[33] Throughout 2015-2016, he repeatedly complained, via Facebook posts, of feeling dizzy and ill but failed to connect the dots and see that taking over-dosages of a black-market drug without a physician's approval could be a reason for it.
+In addition to Oestrogel, Chris has been taking supplements such as vitamins. He purchased a jar of Solaray Female Hormone Blend SP-7C in August 2016, which is meant to ease menopausal symptoms. Arthur Spatchcock also learned that, around May 2016, Chris was fond of eating Fenugreek seeds because he believed it would increase his estrogen levels.[36]
+At some point in fall 2016, he finally went to a medical professional and was prescribed proper HRT.[37]
+Un-clit
+One day in September 2014, Chris decided to get a piercing on his perineum. Piercings require constant disinfection while they heal, anywhere on the body, even for very clean people, and so many trolls were concerned that considering Chris's general filthiness and the fact that the location of the piercing would receive very little air, there was a serious risk of infection. In December, he shared another picture of this piercing which showed that, while it wasn't infected, the piercing had begun to reject (tearing the skin in the process). Making lemonade out of lemons, Chris (now in the throes of his transwoman fantasy) noted with pride the tear's semblance to a vagina and actually got it re-pierced, without giving the original wound any longer than about a week to heal. Fortunately, Chris gave up on it after it became clear that the piercing was going to be more hassle than it was worth, and removed it for good before any serious harm was done.
+Self-inflicted taint wound
+Main article: Self-inflicted taint wound
+In July 2016, Chris posted about a wound on his taint, announcing that he had gotten it as a result of Subliminal Frequency Hypnosis and would be growing new labia as a result. However, as the Man in the Pickle Suit later discovered, Chris actually went ahead and sliced himself open with a knife in order to free the vagina he thought was growing within him.
+So, Chris was feeling up his junk, and he felt something "growing in". He believed his labia were growing in. He knew, logically, that he probably should let it... ahem... "erupt" on its own, because cutting himself open is crazy and he would probably get in trouble. But one night he was drunk and was sad that someone pointed out he didn't have an actual vagina, so he thought he'd help it along.
+In the morning he was very embarrassed and sheepish about it. Chris is fucking lucky he posted about it online, and got pestered into getting help by weens, because if he hadn't, he'd probably end up in the hospital, fighting off a potentially lethal infection.
+So technically speaking, in Chris logic, it was indeed a wound, but his vagina was going to come out and the wound would heal and everything would be alright.
+It's kind of like he was Brundlewoman and he was pulling off his old ear and face and shit, and the beautiful Pam Anderson Christine would be underneath.[38]
+Rejected by a blood bank
+In January 2017, Chris complained on Facebook that he had been turned away from a blood drive for being transgender.[39] He stated that the given reason was "the FDA saw to not accept blood from Transgender people, due to the varying levels of testosterone/estrogen balances in our blood." Chris does not realize how medically sensitive patients will be when receiving blood transfusions, and that it would not be in their interests to be taking blood with hormonal imbalances, especially from Chris, whose blood has been affected by both his unhealthy lifestyle and the dangerous intake of the unsupervised Oestrogel drug.
+
+Chris (as Sonichu)
+Hey, I am feeling uncertain, disgruntled, and mildy confused. All I consciously know at the moment is that everything of the dimension merge is continuing on better now, and shortly enough I will be in Cwcville with this body, and during the present time I am to chill and give this body a bunch of self-love. Yet, as I've mensioned to y'all earlier on Instagram, this body and brain are still harping on its failure of a mutual respected/love cuddle or lay in this universe.
+My bad for not starting this thread with more positive news.
+Thanks for listening.
+censored user
+So, is Christine's spirit in her body in this world?
+21 February 2021
+
+Chris(as Sonichu)
+No, Chris is still in my body in universe C-197.
+Project List
+23 February 2021
+
+Praetor
+@everyone
+Hey ya'll!
+
+The purpose of this discord, this Church, is to bring about collaboration in order to further the omnipotent grasp of Chris Chan Sonichu and our allies.
+
+That being said, these are the current projects being worked on:
+
+-Christine has fully greenlit [red censored user]'s video game. Please message Chris directly as soon as possible, as Christine would like to provide some direction with the game's storyline.
+
+-The Praetor Flamethrower will be stress-tested this upcoming week at a local firing range sponsoring us. Please standby for future details.
+
+-Christine has approved the future sale of Potions blessed by her. These are to be sold for less than $17 apiece, but a fixed price has not yet been decided. We need help finding cheaply shipped glassware in bulk. As cheap as possible is best, as we are going to be selling 3-4 kinds of potions stocked at at least 12 each. Bottles must be at very least 4oz, at most 16oz.
+
+-Christine's Golden Medallions have already sold out. Expect more members soon.
+
+-Test footage for @Deleted User has been filmed in order to see if she can cgi a Sonichu next to Chris, allowing us to feature a Sonichu in the upcoming Chris Chan Movie. Please complete this as soon as possible, and we will kiss you on the mouth.
+
+-If any ideas, products, or other marketable content comes to mind, please drop it in the main Discord Chat. Thanks again.
+
+Deleted User
+Me and my friend can work on cgi, but frame by frame may look more similar and be easier to fix and shape to Sonichus preference
+red censored user
+Rad. Just messaged her
+Not Yet in CWCville
+24 February 2021
+
+Chris (as Sonichu)
+Hey, y'all.
+Just kinda emoting out some; did today's meditate in the gazebo with the gate crystal and all.
+It's Christine Weston Chandler Sonichu's birthday; she's still in my body in Cwcville, and I, Sonichu Prime, am still in her body in this universe. I am feeling like, "Why the hell am I not in Cwcville with this body today of all days!?"
+Hey, @Praetor, it looks like all of the golden medallions have been sold; awesome job, dude.
+Such a premature return body swap would not only be very bad to this timeline, but it is not in either our control to make the return swap.
+Return Body Swap
+25 February 2021
+
+Chris
+Christine: And yet, the fated return swap happened last night
+Too much going on right now.
+I return from C-197 after ten months and 24 days, and My Little Pony G5 is still not cancelled?!
+As having to resync with my own brain and body was not bad enough; this apocalyptic thing is still going on. It's a major pain in the Cosmos as well.
+Meditation
+5 March 2021
+
+Chris
+Hello, peoples.
+A Christian and a Silver walk into a bar, and they have this very conversation right now.
+And then the Goddess behind the counter says, "Tea and biscuits on me."
+3 tumbler glass emoji, 1 teapot emoji, and 3 dumpling emoji
+I'm feeling well and good right now, about to go into another meditate hour.
+DM Ideas
+6 March 2021
+Chris
+Hey, [redacted], DM me what ideas you have so far, and I'll put in my thoughts from there, please.
+Further Meditation
+10 March 2021
+Chris
+Greetings, @everyone.
+I have been meditating further into myself lately; it was very long overdue on my part.
+I am getting my body more back into movements and reconnecting with nature was well.
+I also am going to be making my own long-overdue lists of my own faults, as well as counter-affirmations, and then burning the fault list to release that known and self-judgements and self-criticisms of the past into the void of nothingness.
+I am also pleased to announce that I have personally found confirmation in other psychic, magic, and creative/artist types, and those the higher level of sensitive feeling and sensing the Dimension Merge, in its apex processes at the present. One such high-level psychic refers to it as a "Collective Shift", and and they have confirmed from consulting with their spirits and other-dimensional individuals of my many, many years of personally participating and working hard interdimensionally and intergalactically.
+I feel most humbled and pleased with my work being most recognized and fully appreciated.
+The events are continuing on as foreseen and considerably scheduled for this timeline.
+For the present parts, on my end, I am focusing more on myself, my loves, and going with the flow.
+Tis a very positive and good development indeed. (edited)
+@everyone, please feel free to spread this good news as you will with your friends. Also, offer kindest respects to all psychic and magic types; feel encouraged to consult with a psychic to have your remaining questions answered in regards to the Dimension Merge/Collective Shift.
+And, of course, support all creative and artist types, even though not all of them are presently linked with universe C-197 in their works.
+For now, I bless everyone in this Discord server now and incoming. Be safe and well; have a great day.
+lightning, blue heart, lightning emoji
+Petition to Cancel MLP G5
+12 March 2021
+Chris
+@everyone, you can all help in securing a bit of safety in one aspect of our merging universes today. (links to a change.org petition to "Cancel/Postpone G5 My Little Pony")
+Affirmations List
+12 March 2021
+Chris
+Hey, @everyone, I've just finished my affirmations list, after going through the self-criticisms list; I will likely add more to the affirmations list. As I have foreseen, the positives outweight the blockages. The blockages took up two pages; affirmations Three.
+3 attached images containing 3 handwritten pages of Chris's self-affirmations
+13 March 2021
+Chris
+No, it's still in progress.
+Deep Body Soul Searching
+22 March 2021
+Chris
+Good morning, @everyone.
+I have had a revelation of a find after further deep body-soul searching.
+I post these pre-types screen caps that lay it out:
+5 attached screenshots of another Discord conversation in a different server, revealing that Chris uses Discord on light mode.
+Screenshot Transcript
+Screenshot Transcript
+Obviously, I'd like to prevent a very crucial murder from happening.
+So, outsource, and check everyone online and offline for those amongst the possible young(ish)-adult type feeling lost, maybe partially Woke, on the verge of greater Enlightenment.
+Please, and Thank You.
+Sockness
+28 March 2021
+Praetor
+Sockness. The address said San Fran, that's where he is right?
+Chris
+Unfortunately, that IS Jacob's address.
+I should know; he bought the oldest pair of painted Adidas shoes I've about worn out from eBay; logged his address into the contacts for reference.
+Slim Activity
+30 March 2021
+Sloth
+Hey! Nice to meet everybody. I'm sloth but my real name is Micah!
+Matt
+Hi all and Christine, robes sound cool, I've been playing around with just a general rugby top look plus the medallion also you can call me [redacted] or Matt (my actual name) either works for me (edited)
+Sloth
+Hi Matt! I'd definitely be into robes too. I like the idea of robes with stripes, and maybe the colors of the stripes signify your importance in the church.
+Praetor
+@everyone As of now activity on this discord may be a bit slim. However, we aim to get ourselves and Christine far more active here! Please toss any ideas you got in the chat, as we're looking to do anything to further the power of the Golden Church.
+Matt
+I managed to get a similar rl rugby top so I've been rocking it for a bit now I have some sneakers (with multiple colors so blue and yellow are there) so it's a pretty rad look with the medallion.
+But yeah I agree with the rugby top colours but I think that incorporating the blue and yellow would be a nice touch
+Marie
+welcome micah !
+Chris's Corporeal Form
+31 March 2021
+unknown redacted user #1
+As a trans humanist I'm am keenly interested in your opinion @CWCSonichu1982 on the effects of a dimensional merge and the releasing of a physical form, as a goddess would you say you would retain a corporeal form? Or would you be a higher being with need for such things?
+6 April 2021
+Chris
+My body is light, able to adapt to any other universes' situations on any planet or within outer space. I also have the power and energy of the Chaos Emeralds within me; for that same reason whithin Sonic, Sonichu, and the rest, this is also why they and I can breathe in space.
+Anyway
+Hey, @everyone. I am pleased to announce to all of you that for each of you,
+your respective divine enlightenments and manifested paths to your greater purposes in the Dimension Merge/Collective Shift are at hand. Be greater aware of your local surroundings, as well as an increase in your respective body's abilities and powers. Go forth and do your best as you each will.
+unknown redacted user #1
+Thanks for the insight, personally I like the idea of light being pure data, basically have an effect on the physical and the digital. I really want to ask more but I dont want to flood chat xD, thanks for your encouraging words Christine!
+11 April 2021
+unknown redacted user #2
+Hell yeah
+Been looking forward to some enlightenment
+About Unity Between Dimensions
+26 June 2021
+Chris
+To @everyone, a general announcement with care.
+To all of you in my flock, I highly encourage each of you to begin and continue your own individual self-work in enlightenment. For amongst you all, as the Dimension Merge/Collective Shift draws closer upon the main event with the removal of the veil between our universe halves, each of you has your own inner potential and strength. We have no need for war or quarrel at all with the OCs and individuals of C-197, as I state to all of those individuals in regards to us of 1218.
+Unity and a greater strength for our combined Earth and galaxies is at hand. Need not take arms, but be open for the good in each other.
+All superheroes and deities, myself included, and other individuals of military strengths and powers, and the leaders of each nation and countries; on both halves of this whole Earth, we maintain wisdom and peace for the greater whole as best as we are capable of.
+unknown redacted user#1
+How would you suggest we achieve greatness in this way
+Chris
+It is not perfect, but we are most appreciative and grateful for the understanding and compassion of the general public and flocks there of that we each help, work with, and defend, during these times at hand.
+Chris
+And to you all until my next announcement or insight, I state in positive encouragement to you all: be safe and well with lots of love. Thank you.
+Chris
+Chris
+Among the other techniques available in looking within yourself, and reaching out to the Cosmos to do as well; Meditate, Count your Blessings, and Love yourself.
+unknown redacted user#1
+Anything to help you in your path to greatness
+Reaction to the Barbara Incident
+30 July 2021
+
+Redacted User #1
+Well, today has been quite something, hasn’t it?
+Redacted User #2
+*redacted* I think we need to hear from Chris herself regarding this, ASAP. Assuming she has yet to be institutionalized.
+Redacted User #3
+Yea ...
+Redacted User #4
+Agreed!
+I heard social services arrived but that’s only going off trollsome rumors
+Redacted User #5
+it’s hard to dodge trolls, im really worried about this whole thing, and the trolls are only making it worse
+Redacted User #4
+Apparently there’s news going around that Chris has been arrested even.
+Redacted User #5
+jeez…
+Redacted User #3
+Yes it's official
+Chris chan has been detained and could be possibly facing a class 5 felony
+Barbara’s at a senior’s emergency center being checked up on currently
+And no let the kiwi farms in 3 days is going to give Chris the GoFundMe money
+So I’m going to just assume that this is the end of this discord
+Redacted User #6
+Look i did it for the medallion, if she shows up id be surprised
+Redacted User #5
+Hmm
+The Details of Chris's Arrest
+1 August 2021
+
+Redacted User #1
+You either live long enough to something something or you die early
+However the saying goes
+Redacted User #2
+We have confirmation on what he was arrested for.
+Incest
+He's definitely going to jail
+Redacted User #3
+Goodbye, Chris...
+Redacted User #4
+Damn...
+What a sight...
+Redacted User #5
+source?
+Praetor
+So umm...
+This was all pretty quick
+Redacted User #5
+hmmm I guess this is the Golden Jailhouse of Sonichu now and the only gold is the piss on the floor
+Redacted User #4
+yes
+
+HarperWell's Video
+On the 9th of May 2022, Youtube user HarperWell released a youtube video where he chronicled his findings after infiltrating a secretive Discord server created by Praetor for VIP Chris fans.
+
+In the video, Harper shows many screenshots of conversations held in the Discord and reads aloud the most "significant". Harper takes care to censor all "bystanders" and "people not associated with Chris or Praetor".
+
+Video
+In November 2007, trolls would discover Chris and create a page about him on Encyclopedia Dramatica.
+ Chris would initially think that they just got his information wrong, but as time would go on, Chris 
+ would reveal the true depths of his insanity, in the process destroying his friendship with Megan Schroeder 
+ and becoming the epic lolcow we know him to be. Were it not for this article showing how susceptible he was to trolling and how divinely 
+autistic he could be, Chris may have just been another dumbass with no life, and probably would have 
+been more or less forgotten by now. To this day, ED remains a thorn in his side which he must constantly address 
+to those new to his life. Further to this, he still maintains they are out to do him harm, although the site has long 
+since fallen out of relevance in Chris's life, replaced with outlets such as the Kiwi Farms.
+Around August 2008, Chris w
+ould meet Blanca Weiss, making her his first Internet sweetheart. A
+side from being the first sweetheart, she also proved how tenacious and strange Chris could 
+be about relationships, revealing several quirks and oddities that he felt were somehow appropriate 
+to mention to someone he believed loved him. It also showed how useless any white knighting efforts could be. In the span of two months, 
+Blanca (actually three trolls working in tandem) would release the infamous pictures of Chris naked, then obtain Chris's medallions and film a 
+video of them cutting one up and setting it ablaze.
+Jerkhief is the black leader of the Jerkops known best for uttering nonsensical phrases such as "My wooden badge was delicious!" or "MY SOUL HURTS!" in Sonichu #4. Jerkhief is based on a real-life mall security guard who chased Chris out of the mall for having his Attraction Sign on full display and apparently creeping out the people in front of GameStop. Chris has put Jerkhief's weight at three-quarters of a ton, failing to understand that someone that obese would barely be able to move.
+
+In Sub-Episode 1, Jerkhief interrupted CWC's Love Quest and told him to stop soliciting like any sane person would. Chris was adamant about his quest and refused to leave. So, he beat up a bunch of Jerkops, but then Jerkhief activated his mecha battle armor. Unfortunately, he could not overcome the power of Chris-chan Sonichu. This whole "Jerkop-Tastropie" took place in CWCville Shopping Center.
+
+As Chris has noted, the character design for B-Manajerk gives him a face quite similar to Jerkhief.
+This quote, seen on the cover of Sonichu Issue #4, is an infamous case of Random-access humor that has utterly baffled readers of the webcomic. Eventually, someone was courageous enough to ask Chris what the hell this line was about in an IRC chat and Chris explained its meaning:
+
+the Jerkhief has a Badge made from TREE wood, painted to look like an "official" police badge, and the Jerkops under him have Badges made from Graham Crackers, painted to be the mockery badges as well. The Jerkhief portrayed on the cover took a bite out of his wooden badge, as if it was made from a Graham Cracker, and called it delicious like a Graham Cracker...which you would have learned that from the "Backyard Safari" Sub-Episode.
+This is backed up by Sonichu Issue 4, pages 55-56. Even with the explanation, it is strange for Jerkhief to compare the taste of tree bark to a sweet treat.
+
+When a troll recorded himself destroying the Sonichu Medallion, he recited the line for no apparent reason, but did so with a smug sense of satisfaction as he showcased the thoroughly demolished Relic of Fail at the very end of the video.
+And with that, I will propose Internet securities, reinforced by the FBI, and there will be patrol stations of the Trollbusters around these United States. Any repor-, any troll activity that you may be suspicious of an individual, you report to your local authority! And they will tell, and then they will inform the local FBI station within that state. And then they will investigate thoroughly! Over the wireless that is called the Internet! And they will trace the e-mails back to the origin home address or location. And they will be apprehended and fined or sentenced, depending on how CRUEL they are to the victim.
+Chris hoped to found a worldwide anti-trolling movement, "to put a stop to bullying and cyber-bullying."[2] He launched it on 26 September 2010[3] and in an announcement for the Presidency said that, if elected, he would create local TrollBuster stations.[4]
+
+In September 2014, after coming out as a lesbian, Chris extended the concept of the Trollbusters to target the "haters of the LGBTQ community."[5]
+
+Comic
+Chris planned a pilot issue for a TrollBusters comic. Jackie suggested this as a plot: "the victim was called to go on a first date with a girl at burger king. but when he got there, turned out it was a plot. it was trolls who wanted to steal his pendant, which was a family heirloom handed down for generations and so the trollbusters have to go hunt down the thieves and get it back and at the end they find out that the trolls they beat were just flunkies of more powerful trolls that they would face in the future. i figure its kind of something you could relate to because trolls tried to get your medallion, so your feelings could go into it easier." The trolls are from "Trollvania."
+Cal and Dee^2 hanging out in their headquarters in Cwcville, talking about common Troll Icons and "Anon" Associations of theirs. Other discussion topics of advisement is open for suggestion. They get an e-mail from a victim; Dee^2 traces its origins, googles the victim's name, finds the various forums and such. She and Cal traces the origin points of the inputed text on the Forums and such through IP Addresses. Finds the point of the Head Troll of the group, hops into their Truck (depending on the Location of the Troll, in US or out, having to take the Private Plane or not; I'm still deciding on the starting location). After they reach the destination, from their truck, they scan all of the computers in the house of the troll wirelessly; they find the bookmarks leading to the same Forums, history of entered text onto said forums, and IRC Chat history matching up. They save all of the evidence onto their HDD, then remotely shuts off the internet for this dude alone. Meanwhile, the perp is inside making another post, and gets interrupted of Loss of Connection, then Cal and Dee^2 force their way in with backup from the Police and the F.B.I. and catch the Troll Red-Handed and take him into custody.
+Though the character designs and plot outline exist, the comic was never actually produced.
+
+Ultimate Fate?
+When Sonichu returned from hiatus, Cal and Dee Dee weren't seen or mentioned until the Idea Guys saga, when Chris announced the group was absorbed into "The CWCStapo" which would apparently fight all crime instead of just internet trolling.[12] Chris stopped using the name after people on Facebook told him it was a Nazi reference. Even still, Sonichu 13 revealed that the law enforcement groups of CWCville were indeed consolidated into a single powerful military force. Later in the same issue, CWCville's military was completely decimated by invading forces, resulting in the death of most (if not all) of its service members.
+
+Whether or not Cal and Dee Dee survived or died horribly in the war will ultimately depend on whether Chris (or anyone else, for that matter) gives enough of a shit about them to bring them back. Though their recent appearance in a pair TSSSF cards suggests Chris at least remembered they existed.
+
+Nowadays, the expanded group still exists in Chris's mind to "destroy all CRIMEs" in Cwcville.
