@@ -29,7 +29,6 @@ df['encrypted_pad'] = pad_sequences(df['encrypted'].tolist(), maxlen=max_sequenc
 
 df = df.drop(['word', 'token_cut','encrypted'], axis=1)
 
-X = np.array(df['encrypted_pad'].tolist())
 X_reshaped = np.array(df['encrypted_pad'].tolist()).reshape((len(df), max_sequence_length, 1))
 
 y = np.array(df['token']).astype(float)
