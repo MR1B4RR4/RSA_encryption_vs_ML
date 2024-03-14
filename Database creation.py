@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd	
+import ast
 from Crypto_algorithm import *
 
 # Creating the Dataframe and token for words
@@ -15,7 +16,9 @@ df['token_cut'] = df['token'].apply(lambda x: separate_number_into_pairs(x))
 # Encrypting the Dataframe
 
 ex_public_key, ex_private_key =  RSA_generate(7,11) #small primes should be easy to crack right?
-df['encrypted'] = df['token'].apply(lambda x: RSA_encryption(x, ex_public_key)).astype('str')
+df['encrypted'] = df['token'].apply(lambda x: RSA_encryption(x, ex_public_key))
+df['encrypted_length'] = df['encrypted'].apply(lambda x: len(x))
+
+
 
 print(df)
-

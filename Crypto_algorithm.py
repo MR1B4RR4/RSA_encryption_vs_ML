@@ -85,7 +85,6 @@ def RSA_encryption(message, public_key):
         i = int(i)
         encryption = i**a % n
         encryption_list.append(encryption)
-
     return encryption_list
 
 
@@ -104,7 +103,7 @@ def RSA_open(encryption_list, private_key, public_key):
 # ej_public_key, ej_private_key =  RSA_generate(563,617)
 # print('Llave publica: ',ej_public_key, '\nLlave privada: ',ej_private_key)
 
-# # ej_message = input('\nMensaje a encriptar: ')
+# # # ej_message = input('\nMensaje a encriptar: ')
 # ej_message = 'Hey, como estas?'
 
 # ej_crypt = RSA_encryption(ej_message, ej_public_key)
