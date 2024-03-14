@@ -1,5 +1,3 @@
-import numpy as np
-import math
 
 def map_string_to_numbers(input_string):
     # Define the ASCII printable characters
