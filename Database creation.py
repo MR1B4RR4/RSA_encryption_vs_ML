@@ -51,3 +51,5 @@ model.compile(optimizer=Adam(learning_rate=0.001), loss='mean_squared_error')
 
 # Training the model
 model.fit(X_train, y_train, epochs=100, batch_size=32, validation_data=(X_test, y_test))
+
+model.save('model_keras.h5') 
