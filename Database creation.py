@@ -23,32 +23,15 @@ df['encrypted'] = df['token'].apply(lambda x: RSA_encryption(x, ex_public_key))
 
 df = df[df['token'].apply(lambda x: x.strip() != '')]  # Esto elimina cadenas vacías o espacios
 
-# Dataframe for use
-max_sequence_length = max(df['encrypted'].apply(len))
-df['encrypted_pad'] = pad_sequences(df['encrypted'].tolist(), maxlen=max_sequence_length, padding='post').tolist()
+# Removing the tokens that are too long
+mean_sequence_length = np.mean(df['encrypted'].apply(len))
+std_sequence_length = np.std(df['encrypted'].apply(len)) / 2  
 
-df = df.drop(['word', 'token_cut','encrypted'], axis=1)
+max_sequence_length = int(np.floor(mean_sequence_length + std_sequence_length))
 
-X_reshaped = np.array(df['encrypted_pad'].tolist()).reshape((len(df), max_sequence_length, 1))
+df['token_length'] = df['token'].apply(lambda x: len(x))
+df = df[df['token_length'] <= max_sequence_length]
 
-y = np.array(df['token']).astype(float)
+#Ready for EDA
 
-
-# Divide the Dataframe into 2 parts (train, test)
-
-X_train, X_test, y_train, y_test = train_test_split(X_reshaped, y, test_size=0.2, random_state=42)
-
-# Creating the model
-
-input_dim = X_train.shape[1] 
-output_dim = 1  
-
-model = Sequential()
-model.add(LSTM(units=50, activation='relu', input_shape=(input_dim, 1)))
-model.add(Dense(output_dim))
-model.compile(optimizer=Adam(learning_rate=0.001, clipvalue=0.5), loss='mean_squared_error')
-
-# Training the model
-model.fit(X_train, y_train, epochs=100, batch_size=32, validation_data=(X_test, y_test))
-
-#model.save('model_keras.h5') 
+df.to_excel('DF_for_EDA.xlsx')
