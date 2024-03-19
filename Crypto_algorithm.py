@@ -68,7 +68,7 @@ def separate_number_into_pairs(number):
     # Convert the number to a string
     number_str = str(number)
     # Split the string into pairs of digits
-    pairs = [number_str[i:i+2] for i in range(0, len(number_str), 2)]
+    pairs = [int(number_str[i:i+2]) for i in range(0, len(number_str), 2)]
     return pairs
 
 def RSA_encryption(message, public_key):
