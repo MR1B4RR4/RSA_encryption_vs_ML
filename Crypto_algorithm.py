@@ -71,13 +71,25 @@ def separate_number_into_pairs(number):
     pairs = [int(number_str[i:i+2]) for i in range(0, len(number_str), 2)]
     return pairs
 
+def separate_number_into_groups_of_four(number):
+    # Convert the number to a string
+    number_str = str(number)
+    # Calculate the number of zeros needed to make the last group have four digits
+    padding_needed = (4 - len(number_str) % 4) % 4
+    # Pad the string with zeros at the end if necessary
+    number_str_padded = number_str + '0' * padding_needed
+    # Split the padded string into groups of four digits
+    groups_of_four = [int(number_str_padded[i:i+4]) for i in range(0, len(number_str_padded), 4)]
+    return groups_of_four
+
+
 def RSA_encryption(message, public_key):
     #message = input('Insertar mensaje: ')
     a = public_key[0]
     n = public_key[1]
 
     message_number = map_string_to_numbers(message)
-    pairs = separate_number_into_pairs(message_number)
+    pairs = separate_number_into_groups_of_four(message_number)
     encryption_list = []
     for i in pairs:
         i = int(i)
@@ -102,7 +114,7 @@ def RSA_open(encryption_list, private_key, public_key):
 # print('Llave publica: ',ej_public_key, '\nLlave privada: ',ej_private_key)
 
 # # # ej_message = input('\nMensaje a encriptar: ')
-# ej_message = 'Hey, como estas?'
+# ej_message = 'bc'
 
 # ej_crypt = RSA_encryption(ej_message, ej_public_key)
 
