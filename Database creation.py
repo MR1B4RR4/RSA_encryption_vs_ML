@@ -31,4 +31,4 @@ df['encrypted'] = df['token'].apply(lambda x: RSA_encryption(x, ex_public_key))
 df['token_length'] = df['token'].apply(lambda x: len(x))
 
 #Ready for EDA
-df.to_excel('DF_for_EDA.xlsx')
+# df.to_excel('DF_for_EDA.xlsx')
