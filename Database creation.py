@@ -10,7 +10,7 @@ content_text = file.read()
 file.close()
 
 #Function for spliting sample
-def split_text_into_chunks(text, chunk_size=8):
+def split_text_into_chunks(text, chunk_size=4):
     # Splits the given text into chunks of the specified size, including spaces and punctuation.
     return [text[i:i+chunk_size] for i in range(0, len(text), chunk_size)]
 
@@ -24,11 +24,13 @@ df['token'] = df['word'].apply(lambda x: map_string_to_numbers(x))
 df['token_cut'] = df['token'].apply(lambda x: separate_number_into_pairs(x))
 # Encrypting the Dataframe
 
-ex_public_key, ex_private_key =  RSA_generate(41,59) #small primes should be easy to crack right?
+ex_public_key, ex_private_key =  RSA_generate(83,109) #small primes should be easy to crack right?
 df['encrypted'] = df['token'].apply(lambda x: RSA_encryption(x, ex_public_key))
 
 
 df['token_length'] = df['token'].apply(lambda x: len(x))
 
 #Ready for EDA
-# df.to_excel('DF_for_EDA.xlsx')
+df.to_excel('DF_for_EDA.xlsx')
+
+

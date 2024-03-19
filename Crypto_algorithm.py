@@ -114,7 +114,7 @@ def RSA_open(encryption_list, private_key, public_key):
 # print('Llave publica: ',ej_public_key, '\nLlave privada: ',ej_private_key)
 
 # # # ej_message = input('\nMensaje a encriptar: ')
-# ej_message = '12345'
+# ej_message = 'hola como estas'
 
 # ej_crypt = RSA_encryption(ej_message, ej_public_key)
 
