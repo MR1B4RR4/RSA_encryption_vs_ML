@@ -8,18 +8,15 @@ from keras.optimizers import Adam
 from Crypto_algorithm import *
 
 
+df = pd.read_excel('DF_for_model_training.xlsx')
+df = df.drop('Unnamed: 0',axis=1)
+
+print(df)
 
 
+# X_reshaped = np.array(df['encrypted_padded'].tolist()).reshape((len(df), max_sequence_length, 1))
 
-
-df['encrypted_pad'] = pad_sequences(df['encrypted'].tolist(), maxlen = max_sequence_length, padding='post').tolist()
-
-
-df = df.drop(['word', 'token_cut','encrypted'], axis=1)
-
-X_reshaped = np.array(df['encrypted_pad'].tolist()).reshape((len(df), max_sequence_length, 1))
-
-y = np.array(df['token']).astype(float)
+# y = np.array(df['token']).astype(float)
 
 
 # # Divide the Dataframe into 2 parts (train, test)
