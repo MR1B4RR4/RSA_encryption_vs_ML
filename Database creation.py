@@ -24,7 +24,7 @@ df['token'] = df['word'].apply(lambda x: map_string_to_numbers(x))
 df['token_cut'] = df['token'].apply(lambda x: separate_number_into_groups_of_four(x))
 # Encrypting the Dataframe
 
-ex_public_key, ex_private_key =  RSA_generate(83,109) #small primes should be easy to crack right?
+ex_public_key, ex_private_key =  RSA_generate(prime_1,prime_2) #small primes should be easy to crack right?
 df['encrypted'] = df['word'].apply(lambda x: RSA_encryption(x, ex_public_key))
 
 

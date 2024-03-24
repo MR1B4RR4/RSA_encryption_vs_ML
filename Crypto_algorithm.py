@@ -109,18 +109,22 @@ def RSA_open(encryption_list, private_key, public_key):
     open_string = map_numbers_to_string(open_number)
     return open_string
 
-# # ej_public_key, ej_private_key =  RSA_generate(int(input('Primer primo: ')),int(input('Segundo primo: ')))
-# ej_public_key, ej_private_key =  RSA_generate(563,617)
-# print('Llave publica: ',ej_public_key, '\nLlave privada: ',ej_private_key)
+prime_1 = 227
+prime_2 = 229
 
-# # # ej_message = input('\nMensaje a encriptar: ')
-# ej_message = 'hola como estas'
+# ej_public_key, ej_private_key =  RSA_generate(int(input('Primer primo: ')),int(input('Segundo primo: ')))
+ej_public_key, ej_private_key =  RSA_generate(prime_1,prime_2)
+print('Llave publica: ',ej_public_key, '\nLlave privada: ',ej_private_key)
 
-# ej_crypt = RSA_encryption(ej_message, ej_public_key)
+# # ej_message = input('\nMensaje a encriptar: ')
+ej_message = 'mistake'
 
-# print('\nMensaje numero: ',map_string_to_numbers(ej_message))
-# print('\nMensaje encriptado: ',ej_crypt)
+ej_crypt = RSA_encryption(ej_message, ej_public_key)
 
-# ej_open = RSA_open(ej_crypt, ej_private_key, ej_public_key)
+print('\nMensaje numero: ', map_string_to_numbers(ej_message))
+print('\nMensaje numero cut: ', separate_number_into_groups_of_four(map_string_to_numbers(ej_message)))
+print('\nMensaje encriptado: ',ej_crypt)
 
-# print('\nMensaje desencriptado: ', ej_open)
+ej_open = RSA_open(ej_crypt, ej_private_key, ej_public_key)
+
+print('\nMensaje desencriptado: ', ej_open)
