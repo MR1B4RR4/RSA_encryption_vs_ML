@@ -21,7 +21,7 @@ content_text_characters =  content_text.split()   #split_text_into_chunks(conten
 df = pd.DataFrame(content_text_characters).rename(columns={0: "word"})
 
 df['token'] = df['word'].apply(lambda x: map_string_to_numbers(x))
-df['token_cut'] = df['token'].apply(lambda x: separate_number_into_pairs(x))
+df['token_cut'] = df['token'].apply(lambda x: separate_number_into_groups_of_four(x))
 # Encrypting the Dataframe
 
 ex_public_key, ex_private_key =  RSA_generate(83,109) #small primes should be easy to crack right?
