@@ -109,8 +109,8 @@ def RSA_open(encryption_list, private_key, public_key):
     open_string = map_numbers_to_string(open_number)
     return open_string
 
-prime_1 = 227
-prime_2 = 229
+prime_1 = 103
+prime_2 = 107
 
 # # ej_public_key, ej_private_key =  RSA_generate(int(input('Primer primo: ')),int(input('Segundo primo: ')))
 # ej_public_key, ej_private_key =  RSA_generate(prime_1,prime_2)
